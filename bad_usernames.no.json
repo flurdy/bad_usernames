@@ -1,8 +1,10 @@
 {
-   'usernames': [
-	   "eier",
-	   "epost",
+   "usernames": [
+      "eier",
+      "epost",
       "hjelp",
-	   "post"
+      "kontor",
+      "post",
+      "salg"
    ]
 }

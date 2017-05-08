@@ -26,11 +26,11 @@ Also if emails sent/received by the application perhaps uses the username as an 
 
 #### RFC 2142
 
-https://www.ietf.org/rfc/rfc2142.txt provides a list of mandatory and common optional email aliases. It is a good idea to black list most of these as a username. https://webmasters.stackexchange.com/a/105020 is more elaborate.
+https://www.ietf.org/rfc/rfc2142.txt provides a list of mandatory and common optional email aliases. It is a good idea to blacklist most of these as a username. https://webmasters.stackexchange.com/a/105020 is more elaborate.
 
 ## More rules
 
-Suggested rules in addition to black list.
+Suggested rules in addition to blacklist.
 
 #### UTF 8
 
@@ -59,12 +59,16 @@ Probably makes sense to have a minimum length username. 1, 2 or even 3 character
 
 #### Plurals
 
-If not checking for prefixes, e.g. in English adding an `s` may make `admins` look genuine. 
+If not checking for prefixes, e.g. in English adding an `s` to `admin` may make `admins` look genuine.
+
+### Too restrictive
+
+Please test if your rules are too restrictive and preventing too many users in signing up.
 
 ## Non exhaustive
 
-Phishers are devious and this black list is brittle and short. But it is a start.
+Phishers are devious and this blacklist is brittle and short. But it is a start.
 
 ## Contribute
 
-Please send pull requests to https://github.com/flurdy/bad_usernames/pull. Especially for other languages.
+Please send pull requests to https://github.com/flurdy/bad_usernames/pulls. Especially for other languages.
